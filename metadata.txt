@@ -1,0 +1,36 @@
+[general]
+name=Google Earth Engine Extractor
+qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Extract Google Earth Engine datasets (Sentinel-2, Landsat, SRTM, MODIS NDVI, Global Forest Change) directly into QGIS by vector layer extent.
+version=1.0.1
+about=Google Earth Engine Extractor lets you query and download Google Earth Engine rasters directly into QGIS from any vector layer bounding box. Supports Sentinel-2 SR, Landsat 8/9 SR, SRTM DEM, MODIS NDVI and Global Forest Change. Cloud filtering and median compositing applied automatically. Authentication via Application Default Credentials or service account JSON key. Compatible with QGIS 3.16 and above including QGIS 4.x. Requires the earthengine-api Python package (pip install earthengine-api) and a Google Earth Engine account.
+
+author=LOMPO Ibrahim
+email=ibrahimlompo33@gmail.com
+category=Raster
+
+icon=icon.png
+
+tags=gee, google earth engine, sentinel, landsat, srtm, modis, ndvi, raster, remote sensing, download, extraction, forest, dem
+
+changelog=
+    1.0.1
+    - Fixed plugin name typo (Extrator -> Extractor)
+    - Added earthengine-api dependency check on startup
+    - Added requirements.txt
+    - PyQt5/PyQt6 compatibility improvements
+
+    1.0.0
+    - Initial release. Sentinel-2 SR, Landsat 8/9 SR, SRTM, MODIS NDVI, Global Forest Change. Hybrid direct/Drive export.
+
+experimental=True
+deprecated=False
+
+homepage=https://github.com/ibrahimlompo33-coder/google-earth-engine-extrator
+tracker=https://github.com/ibrahimlompo33-coder/google-earth-engine-extrator/issues
+repository=https://github.com/ibrahimlompo33-coder/google-earth-engine-extrator
+
+hasProcessingProvider=False
+server=False
