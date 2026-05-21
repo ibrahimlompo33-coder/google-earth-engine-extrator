@@ -1,6 +1,6 @@
 # Google Earth Engine Extractor — QGIS Plugin
 
-**Google Earth Engine Extractor by Jambar Lab** lets you download Google Earth Engine rasters directly
+**Google Earth Engine Extractor by LOMPO Ibrahim** lets you download Google Earth Engine rasters directly
 into QGIS from any vector layer bounding box, with no manual export or code required.
 
 ## Requirements
@@ -70,6 +70,6 @@ GNU General Public License v2 — see LICENSE file.
 
 ## Contact
 
-Jambar Lab — ibrahimlompo33@gmail.com
+LOMPO Ibrahim — ibrahimlompo33@gmail.com
 Repository: https://github.com/ibrahimlompo33-coder/google-earth-engine-extrator
 Tracker: https://github.com/ibrahimlompo33-coder/google-earth-engine-extrator/issues
